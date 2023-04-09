@@ -251,88 +251,33 @@
   <!-- End Header --> 
     
 <!-- BEGIN: Side Nav-->
+<aside id="sidebar" class="sidebar">
 
-<div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
-    <div class="main-menu-content">
-    <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-        <!-- Dashboard -->
-        <li class=" nav-item"><a href="index.html"><i class="mbri-desktop"></i><span class="menu-title" data-i18n="Dashboard">Dashboard</span></a>
-        </li>
-        <!-- User Profile -->
-        <li class=" nav-item"><a href="#"><i class="mbri-sites"></i><span class="menu-title" data-i18n="Templates">Profile</span></a>
-        <ul class="menu-content">
-            <li><a class="menu-item" href="#"><i class="la la-arrows-v"></i><span data-i18n="Vertical">Vertical</span></a>
-            <ul class="menu-content">
-                <li><a class="menu-item" href="../vertical-menu-template"><i></i><span data-i18n="Classic Menu">Classic Menu</span></a>
-                </li>
-                <li><a class="menu-item" href="../vertical-collapsed-menu-template"><i></i><span data-i18n="Collapsed Menu">Collapsed Menu</span></a>
-                </li>
-                <li><a class="menu-item" href="../vertical-compact-menu-template"><i></i><span data-i18n="Compact Menu">Compact Menu</span></a>
-                </li>
-                <li><a class="menu-item" href="../vertical-content-menu-template"><i></i><span data-i18n="Content Menu">Content Menu</span></a>
-                </li>
-                <li><a class="menu-item" href="../vertical-overlay-menu-template"><i></i><span data-i18n="Overlay Menu">Overlay Menu</span></a>
-                </li>
-                <li><a class="menu-item" href="../vertical-modern-menu-template"><i></i><span data-i18n="Modern Menu">Modern Menu</span></a>
-                </li>
-            </ul>
-            </li>
-            <li><a class="menu-item" href="#"><i class="la la-arrows-h"></i><span data-i18n="Horizontal">Horizontal</span></a>
-            <ul class="menu-content">
-                <li><a class="menu-item" href="../horizontal-menu-template"><i></i><span data-i18n="Classic">Classic</span></a>
-                </li>
-                <li><a class="menu-item" href="../horizontal-menu-template-nav"><i></i><span data-i18n="Full Width">Full Width</span></a>
-                </li>
-            </ul>
-            </li>
-        </ul>
-        </li>
-        <!-- App -->
-        <li class=" nav-item"><a href="#"><i class="mbri-extension"></i><span class="menu-title" data-i18n="Apps">Apps</span></a>
-        <ul class="menu-content">
-            <li><a class="menu-item" href="app-todo.html"><i class="la la-check-square"></i><span>ToDo</span></a>
-            </li>
-            <li><a class="menu-item" href="app-contacts.html"><i class="la la-users"></i><span>Contacts</span></a>
-            </li>
-            <li><a class="menu-item" href="app-email.html"><i class="la la-envelope"></i><span>Email</span></a>
-            </li>
-            <li><a class="menu-item" href="app-chat.html"><i class="la la-comments"></i><span>Chat</span></a>
-            </li>
-            <li><a class="menu-item" href="app-kanban.html"><i class="la la-file-text"></i><span data-i18n="Kanban">Kanban</span></a>
-            </li>
-            <li><a class="menu-item" href="#"><i class="la la-briefcase"></i><span data-i18n="Project">Project</span></a>
-            <ul class="menu-content">
-                <li><a class="menu-item" href="project-summary.html"><i></i><span data-i18n="Project Summary">Project Summary</span></a>
-                </li>
-                <li><a class="menu-item" href="project-tasks.html"><i></i><span data-i18n="Project Task">Project Task</span></a>
-                </li>
-                <li><a class="menu-item" href="project-bugs.html"><i></i><span data-i18n="Project Bugs">Project Bugs</span></a>
-                </li>
-            </ul>
-            </li>
-            <li><a class="menu-item" href="#"><i class="la la-calendar"></i><span data-i18n="Calendars">Calendars</span></a>
-            <ul class="menu-content">
-                <li><a class="menu-item" href="#"><i></i><span data-i18n="Full Calendar">Full Calendar</span></a>
-                <ul class="menu-content">
-                    <li><a class="menu-item" href="full-calender-basic.html"><i></i><span data-i18n="Basic">Basic</span></a>
-                    </li>
-                    <li><a class="menu-item" href="full-calender-events.html"><i></i><span data-i18n="Events">Events</span></a>
-                    </li>
-                    <li><a class="menu-item" href="full-calender-advance.html"><i></i><span data-i18n="Advance">Advance</span></a>
-                    </li>
-                    <li><a class="menu-item" href="full-calender-extra.html"><i></i><span data-i18n="Extra">Extra</span></a>
-                    </li>
-                </ul>
-                </li>
-                <li><a class="menu-item" href="calendars-clndr.html"><i></i><span data-i18n="CLNDR">CLNDR</span></a>
-                </li>
-            </ul>
-            </li>
-        </ul>
-        </li>
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span class="menu-title">Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+      </li>
     </ul>
-    </div>
-</div>
+
+  </aside>
 <!-- END: Side Nav-->
 
 <!-- ======= Footer ======= -->
@@ -351,7 +296,7 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
+  <!-- Misc JS Files -->
   <script src="assets/misc/apexcharts/apexcharts.min.js"></script>
   <script src="assets/misc/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/misc/chart.js/chart.umd.js"></script>
@@ -360,6 +305,8 @@
   <script src="assets/misc/simple-datatables/simple-datatables.js"></script>
   <script src="assets/misc/tinymce/tinymce.min.js"></script>
   <script src="assets/misc/php-email-form/validate.js"></script>
+  <script src="assets/js/app-menu.min.js"></script>
+  <script src="assets/js/app.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
