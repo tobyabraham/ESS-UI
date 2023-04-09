@@ -587,6 +587,37 @@ color: #012970;
     background-color: #f6f9ff;
   }
 
+/*-------------------------------------------------------------------
+# Side Nav
+-------------------------------------------------------------------*/
+.navigation {
+    margin-top: 0;
+}
+
+.navigation-main {
+    height: 100%;
+}
+
+.nav-item {
+    height: 33%;
+}
+
+.main-menu-content {
+    margin-top: 0;
+}
+
+#main-menu-navigation {
+    margin-top: 0;
+}
+
+.vertical-compact-menu .main-menu .navigation>li>a {
+    height: 100%;
+    padding: 3v .9rem 0.2rem;
+}
+
+.menu-item {
+
+}
 
 
   /*--------------------------------------------------------------
